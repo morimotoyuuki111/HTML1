@@ -74,3 +74,67 @@ Progate //h2要素
 <a href="https://prog-8.com">Progate</a>
          リンクのURL(*ブラウザには表示されない)
 ```
+
+- 属性の書き方
+```go
+HTMLでは、hrefのような属性が数多くあります。
+開始タグの中に記述します。
+値を指定する際は、ダブルクォーテーション（"）を忘れないように注意。
+```
+```go
+<a href="https://prog-8.com">
+Progate
+</a>
+```
+
+# 画像
+```go
+画像の表示には<img>要素を用います。
+<img src="url">のように、src属性のurlの部分に画像のリンクを指定することで、画像が表示されます。
+<img>要素はテキストを囲むことがないため、終了タグが要りません。
+```
+```go
+<img src="https://prog-8.com/images/family.jpg">//"画像のURL"終了タグは不要
+```
+
+# リスト
+```go
+リストを作るには、<li>要素を用います。
+箇条書きにしたいテキストをそれぞれ<li>タグで囲むことで、リストを作ることができます。
+```
+```go
+<li>HTML</li>
+<li>PHP</li>
+<li>Ruby</li>
+
+・ HTML
+・ PHP
+・ Ruby
+```
+
+- <ul>　要素
+```go
+<li>要素は、囲む要素によって種類が変わるという特徴を持っています。
+<ul>要素で囲むと、黒点が先頭につきます。
+このように要素を要素で囲むことを入れ子と言います。
+囲む方の要素を親要素、囲まれる要素を子要素と呼びます。
+```
+```go
+<ul> //親要素
+ <li>HTML</li>　//子要素
+ <li>PHP</li>　//子要素
+ <li>Ruby</li>　//子要素
+</ul>　//親要素
+         
+・ HTML //リストの先頭に黒点がつく
+・ PHP
+・ Ruby
+```
+         
+# その他
+- タグについて
+<a href="https://wa3.i-3-i.info/word1584.html">タグ</a><br>
+         
+- 要素について
+<a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element">要素</a><br>
+
