@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="stylesheet.css">　　//3 CSSの読み込み
 </head>
 ```
+<a href="https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML">詳しくはこちら</a><br>
 
 ```go
 文字コードを指定することで、ページの文字化けを防ぐことができます。
@@ -58,4 +59,4 @@ HTMLからCSSを読み込むためには、<link rel="stylesheet">を用いま�
 （タグによっては余計なものまで補完される場合もあるので注意してください）
 ```
 
-<a href="https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML">詳しくはこちら</a><br>
+
