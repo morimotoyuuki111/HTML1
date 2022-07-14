@@ -50,3 +50,57 @@ li {
 黒点なし
 黒点なし
 ```
+- ヘッダーの中身を横並びにする
+```go
+floatプロパティを用いることで、指定した要素を横並びにすることができます。
+float: left;を指定すると要素が左から順に横に並びます。
+```
+
+<a href="https://developer.mozilla.org/ja/docs/Web/CSS/float">floatプロパティ　詳しくはこちら</a><br>
+
+- 余白の調整
+```go
+要素に余白を作りたい場合は、paddingを用います。
+「padding: 値;」とすると、上下左右すべての方向にその大きさの余白が追加されます。
+```
+
+<a href="https://developer.mozilla.org/ja/docs/Web/CSS/padding">padding　詳しくはこちら</a><br>
+
+# フッター
+- 入れ子のセレクタ
+```go
+.header-list」の後にスペースを空けてliと続けると、「header-list」の中の<li>
+要素にのみCSSを適用することができます。
+これにより、ヘッダーの<li>要素とフッターの<li>要素に別々のCSSを適用することができます。
+```
+```go
+index.html
+<div class="header-list">
+  <ul>
+    <li>ヘッダーのリスト</li>
+    <li>ヘッダーのリスト</li>
+  </ul>
+</div>
+<div class="footer-list">
+  <ul>
+    <li>フッターのリスト</li>
+  </ul>
+</div>
+
+stylesheet.css
+.header-list li{ //header-listの子要素である<li>要素にのみCSSを適用
+clolr: #ff0000;
+}
+
+```
+- float: right
+<a href="https://developer.mozilla.org/ja/docs/Web/CSS/float">floatプロパティ　詳しくはこちら</a><br>
+
+- 要素を左右に配置する
+```go
+Progate ←footer-logo「float:left;」を指定
+
+会社概要
+採用　　　　　　　　←fllter-listに「float:right;」を指定
+お問合せ　
+```
