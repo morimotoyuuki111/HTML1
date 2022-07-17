@@ -8,7 +8,7 @@
 - お問合せフォーム
 
 # 詳細
-#　main
+# main
 ```go
 main要素は、「copy-container」、「contents」、「contact-form」の3つの要素で構成されています。
 ```
