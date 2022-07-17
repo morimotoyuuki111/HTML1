@@ -2,7 +2,6 @@
 
 - 全体のレイアウト
 - トップ
-- ヘッダー
 
 # 詳細
 - 全体のレイアウト
@@ -111,3 +110,36 @@ inline（インライン要素）を指定することができます。
 ```
 
 <a href="https://prog-8.com/html/study/2/5#/13">詳しくはこちら</a><br>
+
+# レイアウト調整
+- :hover
+```go
+カーソルが乗ったときの状態をhoverと言います。
+CSSで、セレクタ:hoverとすることで、カーソルが乗ったときのCSSを指定することができます。
+```
+
+- border-radius
+```go
+角を丸めるにはborder-radiusプロパティを用います。
+数字が大きいほど角が丸くなります。
+```
+
+- text-align
+```go
+text-alignプロパティを用いることで、テキスト、
+インライン要素、インラインブロック要素の配置を指定することができます。
+leftで左寄せ、centerで中央揃え、rightで右寄せに設定することができます。
+```
+
+# 「margin: 0 auto」と「text-align: center」
+```go
+要素を中央寄せにする方法として、margin: 0 autoとtext-align: centerを学びましたが、
+それらの違いを整理しましょう。
+containerクラスのように、広い範囲を囲うようなブロック要素の場合はmarginを、
+テキストやボタンのようなインライン要素・インラインブロック要素の場合はtext-alignを使うようにしましょう。
+```
+
+<a href="https://prog-8.com/html/study/2/6#/18">詳しくはこちら</a><br>
+
+# アイコン作成
+<a href="https://fontawesome.com/">参照</a><br>
